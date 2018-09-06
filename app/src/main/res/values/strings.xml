@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hello World Java by PrMod</string>
+    <string name="enter_name">Enter your name:</string>
+    <string name="name_hint">Enter your full name</string>
+    <string name="hello_init">Hello Stranger! Welcome to the Java Android Studio!</string>
+    <string name="button_label">Greetings!</string>
+    <string name="hello_text">Hello</string>
+    <string name="welcome_text">! Welcome to the Java Android Studio!</string>
+</resources>
