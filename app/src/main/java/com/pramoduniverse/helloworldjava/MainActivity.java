@@ -1,7 +1,7 @@
 package com.pramoduniverse.helloworldjava;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String strFullName = editFullName.getText().toString();
                 String strOutput;
-                if(!strFullName.isEmpty()) {
+                if (!strFullName.isEmpty()) {
                     strOutput = getResources().getString(R.string.hello_text) + " " +
                             strFullName.trim() + getResources().getString(R.string.welcome_text);
                 } else {
